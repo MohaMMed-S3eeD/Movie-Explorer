@@ -20,7 +20,8 @@ const Home = ({ className }: { className: string }) => {
     <div
       className={`${className} relative w-full min-h-screen flex items-center`}
       style={{
-        backgroundImage: "url('src/assets/1.png')",
+        backgroundImage:
+          "url('https://res.cloudinary.com/dtvr83fb3/image/upload/f_auto,q_auto/yx3blqdtmo51a9wbkve1')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
