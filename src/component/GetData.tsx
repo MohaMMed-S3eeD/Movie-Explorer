@@ -104,7 +104,7 @@ const GetData = () => {
         </div>
       ) : (
         <div>
-          <h1 className="text-white text-center text-2xl font-bold mb-10">
+          <h1 className="text-white text-center text-[0.5rem] sm:text-[0.7rem] md:text-[0.9rem] lg:text-[1rem] font-bold mb-10">
           Type the name of the movie you want to search for and press Search !
           </h1>
         </div>
