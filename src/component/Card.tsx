@@ -33,10 +33,11 @@ const Card = ({ movie }: { movie: Movie }) => {
   useGSAP(() => {
     gsap.fromTo(
       ".card",
-      { opacity: 0, x: 50 },
+      { opacity: 0, y: 50, scale :0.5},
       {
         opacity: 1,
-        x: 0,
+        y: 0,
+scale:1
         duration: 0.5,
         stagger: 0.1,
         ease: "none",
