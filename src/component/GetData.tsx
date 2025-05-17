@@ -35,8 +35,6 @@ const GetData = () => {
   };
 
   useGSAP(() => {
-   
-
     gsap.fromTo(
       ".section-title",
       { opacity: 0 },
@@ -100,7 +98,7 @@ const GetData = () => {
         <div>
           <div className="grid grid-cols-1 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-4 sm:px-6 md:px-8 lg:mx-60 lg:p-5">
             {dataSearch.map((movie: Movie) => (
-              <Card className="card" key={movie.id} movie={movie} />
+              <Card key={movie.id} movie={movie} />
             ))}
           </div>
         </div>
